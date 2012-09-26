@@ -5,6 +5,7 @@ gem 'blimpy', '~> 0.6.1'
 
 group :test do
   gem 'cucumber'
+  gem 'blimpy-cucumber'
   gem 'rspec', '~> 2.11.0'
   gem 'rspec-puppet'
   gem 'puppet'
