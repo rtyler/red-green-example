@@ -7,6 +7,8 @@ Given /^the host is classified as a www node$/ do
   # Use some more blimpy-cucumber undocumented magic
   resources << """
 include apache
+
+group { 'puppet' : ensure => present; }
 """
 end
 
